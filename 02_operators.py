@@ -25,3 +25,24 @@ print(2 >= 3) # Mayor o igual que
 print(2 < 3 and "Hola" == "Hola") # True && True = True
 print(2 < 3 or "Hola" != "Hola") # True || False = False
 print(not (2 < 3)) # !=True = False
+
+"""
+# Jerarquía de Operadores Aritméticos
+PEMDAS
+P= Parentesis
+E= Exponenciación
+M= Multiplicación
+D= División
+A= Adición
+S= Sustracción
+"""
+
+### Atajos de Operadores
+a += 1 # a = a + 1
+a -= 1 # a = a - 1
+a *= 1 # a = a * 1
+a /= 1 # a = a / 1
+a %= 1 # a = a % 1
+a **= 1 # a = a ** 1
+a //= 1 # a = a // 1
+a &= 1 # a = a & 1
