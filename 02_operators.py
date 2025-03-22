@@ -38,6 +38,7 @@ S= Sustracción
 """
 
 ### Atajos de Operadores
+a = 3
 a += 1 # a = a + 1
 a -= 1 # a = a - 1
 a *= 1 # a = a * 1
