@@ -36,3 +36,25 @@ print(ages)
 
 del ages[-3:-1] # Eliminar un slice de la lista
 print(ages)
+
+"""
+Hay que tener en cuenta que si asignamos una lista a otra variable,
+estaremos asignando la dirección de memoria de la lista original a la nueva variable.
+"""
+a = [1, 2, 3, 4, 5]
+b = a # Asigna todos los elementos de a en b, incluyendo la dirección de memoria
+print(a)
+print(b)
+del a[0]
+print(id(a)) # Muestra la dirección de memoria de la variable a
+print(id(b)) # Muestra la dirección de memoria de la variable b
+
+# Para copiar una lista sin asignar la dirección de memoria, se puede hacer lo siguiente:
+c = a[:] # Copia todos los elementos de a en c, sin asignar la dirección de memoria
+print(id(a))
+print(id(c))
+
+a.append(6)
+print(a)
+print(b)
+print(c)
