@@ -1,0 +1,29 @@
+{
+    "user_id": 12,
+    "user_name": "Ransbach",
+    "full_name": "Ricardo Estepa",
+    "email": "sir.ransbach@gmail.com",
+    "status": "active",
+    "is_premium": true,
+    "created_at": "2026-10-12",
+    "age": 37,
+    "location": {
+        "city": "Bogotá",
+        "country": "Colombia",
+        "timezone": "America/Bogota"
+    },
+    "interests": [
+        "Data Science",
+        "Rock Music",
+        "Photography"
+    ],
+    "social_links": {
+        "github": "https://github.com/ri3ux",
+        "linkedin": null
+    },
+    "stats": {
+        "followers": 340,
+        "following": 128,
+        "posts": 57
+    }
+}
